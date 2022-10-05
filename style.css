@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#eyes {
+  /* display: none; */
+}
+
+#image-container {
+  position: relative;
+}
+
+#eyes,
+#eyes img {
+  position: absolute;
+}
